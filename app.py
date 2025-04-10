@@ -14,6 +14,7 @@ from chatbot import chat
 from forms import CreateGroupForm, LoginForm, RegistrationForm, ExpenseForm, JoinGroupForm, SplitPaymentForm
 from models import Group, ExpenseSplit
 from extensions import db, bcrypt, login_manager
+import middleware
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
