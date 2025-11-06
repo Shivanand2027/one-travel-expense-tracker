@@ -81,14 +81,16 @@ In documentation, you'll commonly see:
 
 ## Quick Reference
 
-| Command | Description |
-|---------|-------------|
-| `git diff` | Show unstaged changes |
-| `git diff --staged` | Show staged changes |
-| `git diff HEAD` | Show all changes since last commit |
-| `git diff <commit1> <commit2>` | Compare two commits |
-| `git diff <branch1>..<branch2>` | Compare two branches |
-| `git diff HEAD~1 HEAD` | Compare with previous commit |
+| Command | Description | Example |
+|---------|-------------|---------|
+| `git diff` | Show unstaged changes | `git diff` |
+| `git diff --staged` | Show staged changes | `git diff --staged` |
+| `git diff HEAD` | Show all changes since last commit | `git diff HEAD` |
+| `git diff COMMIT1 COMMIT2` | Compare two commits (replace with actual hashes) | `git diff 6293eec 4960765` |
+| `git diff BRANCH1..BRANCH2` | Compare two branches (replace with actual names) | `git diff main..feature` |
+| `git diff HEAD~1 HEAD` | Compare with previous commit | `git diff HEAD~1 HEAD` |
+
+**Note:** In the table above, `COMMIT1`, `COMMIT2`, `BRANCH1`, and `BRANCH2` are placeholders - replace them with actual values. We use uppercase instead of `<angle brackets>` to avoid confusion with shell redirection operators.
 
 ## Pro Tips
 
