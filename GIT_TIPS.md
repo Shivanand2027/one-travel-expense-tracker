@@ -98,7 +98,7 @@ In documentation, you'll commonly see:
 2. Use `HEAD` to refer to the current commit
 3. Use `HEAD~1` for the previous commit, `HEAD~2` for two commits back, etc.
 4. Tab completion can help you avoid typos with commit hashes and branch names
-5. Add `--name-only` flag to see only the names of changed files: `git diff --name-only <commit1> <commit2>`
+5. Add `--name-only` flag to see only the names of changed files: `git diff --name-only 6293eec 4960765`
 
 ## Getting Help
 
