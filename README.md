@@ -12,3 +12,6 @@ A web-based travel expense tracking app built using Flask and deployed on Vercel
 - Flask
 - HTML/CSS/JS
 - Vercel
+
+## Documentation
+- [Git Tips and Common Mistakes](GIT_TIPS.md) - Learn how to properly use Git commands and avoid common syntax errors
